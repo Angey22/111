@@ -1,112 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ManageME</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&family=Quicksand:wght@300;400;500;700&family=Roboto:wght@400;500&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="./css/main.css">
-</head>
-<body>
-    <header>
-        <div class="container">
-            <nav class="nav">
-                <ul>
-                    <li><a href="" aria-label="ManageME"></a></li>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Features</a></li>
-                    <li><a href="">Pricing</a></li>
-                    <li><a href="">Documentation</a></li>
-                </ul>
-            </nav>
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&family=Quicksand:wght@300;400;500;700&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#" aria-label="ManageME" class="nav__link logo link"></a>
+            </li>
+            <li class="nav__item"><a href="#" class="nav__link link">Home</a></li>
+            <li class="nav__item"><a href="#" class="nav__link link">Blog</a></li>
+            <li class="nav__item"><a href="#" class="nav__link link">Features</a></li>
+            <li class="nav__item"><a href="#" class="nav__link link">Pricing</a></li>
+            <li class="nav__item"><a href="#" class="nav__link link">Documentation</a></li>
+          </ul>
+        </nav>
 
-            <ul>
-                <li><a href="" aria-label="facebook">
-                    <svg width="9px" height="17px">
-                        <use href="./img/symbol-defs.svg#icon-Group-11-1"></use>
-                    </svg>
-                </a></li>
-                <li><a href="" aria-label="">
-                    <svg width="15px" height="12px">
-                        <use href="./img/symbol-defs.svg#icon-Telegram_logo-1"></use>
-                    </svg>
-                </a></li>
-                <li><a href="" aria-label="">
-                    <svg width="16px" height="14px">
-                        <use href="./img/symbol-defs.svg#icon-Group-7-1"></use>
-                    </svg>
-                </a></li>
-                <li><a href="" aria-label="">
-                    <svg width="17px" height="13px">
-                        <use href="./img/symbol-defs.svg#icon-Group-8-1"></use>
-                    </svg>
-                </a></li>
-                <li><a href="">Get started</a></li>
-            </ul>
-        </div>
+        <ul class="social">
+          <li class="social__item">
+            <a href="" aria-label="facebook" class="social__link link">
+              <svg width="9px" height="17px">
+                <use href="./img/symbol-defs.svg#icon-Group-11-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social__item">
+            <a href="" aria-label="" class="social__link link">
+              <svg width="15px" height="12px">
+                <use href="./img/symbol-defs.svg#icon-Telegram_logo-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social__item">
+            <a href="" aria-label="" class="social__link link">
+              <svg width="16px" height="14px">
+                <use href="./img/symbol-defs.svg#icon-Group-7-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social__item">
+            <a href="" aria-label="" class="social__link link">
+              <svg width="17px" height="13px">
+                <use href="./img/symbol-defs.svg#icon-Group-8-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social__item"><a href="" class="social__cta-btn link">Get started</a></li>
+        </ul>
+      </div>
     </header>
 
     <main>
-        <section class="hero">
-            <div class="container">
-                <p class="pretitle">plan your life</p>
-                <h1>Increase your <span>productivity</span></h1>
-                <p>Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu atqui laudem an, insolens gubergren similique est
-                cu. Et vel modus congue vituperata.</p>
-                <button>
-                    <svg width="17px" height="13px">
-                        <use href="./img/symbol-defs.svg#icon-Polygon-1"></use>
-                    </svg>
-                </button>
-            </div>
-        </section>
+      <section class="hero">
+        <div class="container">
+          <p class="hero__pretitle">plan your life</p>
+          <h1 class="hero__title">Increase your <span class="fw-500">productivity</span></h1>
+          <p class="hero__text">
+            Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu atqui laudem an,
+            insolens gubergren similique est cu. Et vel modus congue vituperata.
+          </p>
+          <button class="hero__btn">
+            <svg width="17px" height="13px">
+              <use href="./img/symbol-defs.svg#icon-Polygon-1"></use>
+            </svg>
+          </button>
+        </div>
+      </section>
 
-        <section class="partners">
-            <div class="container">
-                <ul>
-                    <li><a href="" aria-label="">
-                        <svg width="117px" height="29px">
-                            <use href="./img/symbol-defs.svg#icon-bitbucket-1"></use>
-                        </svg>
-                    </a></li>
-                    <li><a href="" aria-label="">
-                        <svg width="117px" height="24px">
-                        <use href="./img/symbol-defs.svg#icon-apple-watch-1"></use>
-                    </svg>
-                    </a></li>
-                    <li><a href="" aria-label="">
-                        <svg width="117px" height="22px">
-                        <use href="./img/symbol-defs.svg#icon-facebook-1"></use>
-                    </svg>
-                    </a></li>
-                    <li><a href="" aria-label="">
-                        <svg width="117px" height="24px">
-                        <use href="./img/symbol-defs.svg#icon-atlassian-1"></use>
-                    </svg>
-                    </a></li>
-                    <li><a href="" aria-label="">
-                        <svg width="117px" height="29px">
-                        <use href="./img/symbol-defs.svg#icon-audi-1"></use>
-                    </svg>
-                    </a></li>
-                </ul>
-            </div>
-        </section>
-
+      <section class="partners">
+        <div class="container">
+          <ul class="partners__list">
+            <li class="partners__item">
+              <a href="" aria-label="" class="partners__link">
+                <svg width="117px" height="29px">
+                  <use href="./img/symbol-defs.svg#icon-bitbucket-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="partners__item">
+              <a href="" aria-label="" class="partners__link">
+                <svg width="117px" height="24px">
+                  <use href="./img/symbol-defs.svg#icon-apple-watch-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="partners__item">
+              <a href="" aria-label="" class="partners__link">
+                <svg width="117px" height="22px">
+                  <use href="./img/symbol-defs.svg#icon-facebook-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="partners__item">
+              <a href="" aria-label="" class="partners__link">
+                <svg width="117px" height="24px">
+                  <use href="./img/symbol-defs.svg#icon-atlassian-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="partners__item">
+              <a href="" aria-label="" class="partners__link">
+                <svg width="117px" height="29px">
+                  <use href="./img/symbol-defs.svg#icon-audi-1"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
 
-    <footer>
-
-    </footer>
-    
-</body>
+    <footer></footer>
+  </body>
 </html>
